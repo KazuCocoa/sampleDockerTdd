@@ -3,7 +3,7 @@ MAINTAINER kazuaki
 
 # Install ssh
 RUN apt-get update
-RUN apt-get install -y openssh-server
+RUN apt-get install -y openssh-server git
 
 # Setting ssh
 RUN mkdir /var/run/sshd
@@ -23,7 +23,7 @@ RUN chown kazucocoa /home/kazucocoa/.ssh/authorized_keys
 RUN chmod 700 /home/kazucocoa/.ssh/authorized_keys
 
 # Setting sudoers
-RUN echo "tcnksm   ALL=(ALL)   ALL" > /etc/sudoers.d/tcnksm
+RUN echo "kazucocoa   ALL=(ALL)   ALL" > /etc/sudoers.d/kazucocoa
 
 ###
 EXPOSE 22
