@@ -7,7 +7,7 @@ $ docker run -p :22 -d kazucocoa/docker_tdd /usr/sbin/sshd -D
 ```
 
 ```
-$ export SUDO_PASSWORD="****"
+$ export SUDO_PASSWORD="kazucocoa"
 ```
 
 - ~/.ssh/config
@@ -24,3 +24,7 @@ Host 192.168.59.103
   IdentitiesOnly yes
   LogLevel FATAL
 ```
+
+
+ref: https://coderwall.com/p/5xylsg/tdd-for-dockerfile-by-rspec-severspec
+ref: http://deeeet.com/writing/2014/01/06/tdd-dockerfile/
