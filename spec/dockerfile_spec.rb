@@ -2,8 +2,8 @@ require 'spec_helper'
 
 describe 'Sample Images' do
 
-  before :context do
-    @image = Docker::Image.all.detect{|image| image.info['Repository'] == 'kazucocoa/sample'}
+  before :all do
+    @image = Docker::Image.all.detect{|image| image.info['RepoTags'] == ['kazucocoa/docker_tdd:latest']}
   end
 
   it 'should exist' do
