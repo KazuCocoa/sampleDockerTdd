@@ -26,5 +26,5 @@ Host 192.168.59.103
 ```
 
 
-ref: https://coderwall.com/p/5xylsg/tdd-for-dockerfile-by-rspec-severspec
-ref: http://deeeet.com/writing/2014/01/06/tdd-dockerfile/
+- ref: https://coderwall.com/p/5xylsg/tdd-for-dockerfile-by-rspec-severspec
+- ref: http://deeeet.com/writing/2014/01/06/tdd-dockerfile/
